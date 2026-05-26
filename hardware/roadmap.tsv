@@ -1,0 +1,21 @@
+Task ID	Task Name	Start Week	End Week	Depends On	Critical Path
+1	Finalize Project Requirements and Features	Week 2	Week 2	None	Yes
+2	Confirm Sensor Compatibility and I2C Addresses	Week 2	Week 2	Task 1	Yes
+3	Complete Bill of Materials	Week 2	Week 2	Task 1	Yes
+4	Order and Track Components	Week 2	Week 3	Task 3	Yes
+5	Design Circuit Schematic in KiCad	Week 3	Week 4	Task 2	Yes
+6	PCB Layout and Gerber Generation	Week 4	Week 5	Task 5	Yes
+7	Design Enclosure in OpenSCAD or Illustrator	Week 4	Week 6	Task 5	No
+8	Receive and Verify Parts Shipment	Week 5	Week 7	Task 4	Yes
+9	Assemble Prototype Hardware	Week 6	Week 8	Task 6, Task 8	Yes
+10	Solder Components and Connectors	Week 6	Week 8	Task 9	Yes
+11	Develop Firmware for Sensors	Week 7	Week 9	Task 8	Yes
+12	Firebase Database Integration	Week 8	Week 10	Task 11	Yes
+13	Android App Development	Week 8	Week 11	Task 11	No
+14	Real-Time Notifications and Alerts	Week 9	Week 11	Task 12	Yes
+15	PCB Testing and Sensor Calibration	Week 9	Week 11	Task 10, Task 11	Yes
+16	System Integration Testing	Week 10	Week 12	Task 12, Task 13, Task 15	Yes
+17	Troubleshooting and Debugging	Week 11	Week 12	Task 16	Yes
+18	Final Demonstration Preparation	Week 12	Week 13	Task 17	Yes
+19	Presentation Slides and Oral Prep	Week 12	Week 13	Task 16	No
+20	Final Hardware Report and Build Instructions	Week 13	Week 14	Task 18	Yes
